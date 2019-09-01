@@ -6,7 +6,7 @@
 //  Copyright © 2019 Alp Erbil. All rights reserved.
 //
 
-class Item {
+class Item: Codable {
     var title: String
     var isDone: Bool = false
     
